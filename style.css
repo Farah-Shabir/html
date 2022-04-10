@@ -1,24 +1,24 @@
-body{
-    background-color:lightcyan;
+body {
+    font-family: cursive ;
+    color: dimgrey;
 }
-h1{
+
+.main { 
+    text-align: center;
     color: blue;
-    text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
 h2{
-    color:green;
     text-align: center;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: green;
 }
-table{
-    width: 100%;
-    border-collapse: collapse;
-    text-align: center;
+
+.para {
+    color:red;
 }
-tr,th,td{
-    border: 1px solid black;
-}
-td a{
-    color:orange;
+
+.image {
+    background-image: url(img1.jpg);
+    background-attachment: fixed;
+    height: 300px;
 }
